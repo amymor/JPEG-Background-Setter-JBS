@@ -13,7 +13,7 @@ Open the `Comparison\index.html` in your browser, and check the `Comparison\guid
 ![Comparison](https://github.com/amymor/JPEG-Background-Setter-JBS/assets/54497554/8feb6e33-f949-498e-a166-48493f771a64)
 From left to right in order (best quality to worst):
 
-`org-full`	- Original photo (`JBS` maintains this quality)
+`org-full`	- Original photo (`JBS` maintains this quality).
 
 `100+dummy`	- Setting JPEGImportQuality to 100 and disabling only the `Horrible Second Conversion`.
 
@@ -28,7 +28,7 @@ From left to right in order (best quality to worst):
 
 ### Pros
 1. For slideshows, you have the "Previous desktop background" in `JBS GUI` and your desktop context menu (To-Do). 
-2. The `Set as Desktop background` in the JPEG context menu will change to set your actual JPEG image as the background without any conversion. (To-Do)
+2. The `Set as Desktop background` in the JPEG context menu will change to set your actual JPEG image as the background without any conversion (To-Do).
 3. Preserves the exact quality of your JPEG images, just like when you set a PNG image as the background.
 4. Reduces read/write to the system disk, which is beneficial for SSD users with a lower time span. (Avoids the creation of unnecessary cache files and also avoids unnecessary increases in the size of `TranscodedWallpaper` when the quality of your JPEG image is less than the value of `JPEGImportQuality`)
 5. The value of JPEGImportQuality doesn't matter anymore. (Note: `JPEGImportQuality` is not present in the registry by default)
@@ -61,7 +61,7 @@ Drag and drop the image file on `JBS.exe` or pass image path as first parameter 
 ```
 JBS.exe "C:\Images\MyDesktopBackground.jpg"
 ```
-Note: make sure to use double quote (`"`) in start and end of image path
+Note: make sure to use double quote (`"`) in start and end of image path.
 
 ### To-Do - Replace Set as Desktop Background Context Menu
 1. Run the `2.Install-Context-Menu.bat` and select 1.
