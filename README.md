@@ -13,7 +13,7 @@ Open the `Comparison\index.html` in your browser, and check the `Comparison\guid
 ![Comparison](https://github.com/amymor/JPEG-Background-Setter-JBS/assets/54497554/8feb6e33-f949-498e-a166-48493f771a64)
 From left to right in order (best quality to worst):
 
-`orgl-ful`	- Original photo (`JBS` maintains this quality)
+`org-full`	- Original photo (`JBS` maintains this quality)
 
 `100+dummy`	- Setting JPEGImportQuality to 100 and disabling only the `Horrible Second Conversion`.
 
