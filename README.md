@@ -1,13 +1,27 @@
-# JPEG Background Setter(JPS)
+# ![JBSGUI2](https://github.com/amymor/JPEG-Background-Setter-JBS/assets/54497554/7555d5e4-38a0-431f-9506-2f09921c57ab) JPEG Background Setter(JPS)
 Set your Actual JPEG image as background.
 
 ## Why JBS?
 When you set a JPEG image as your desktop background, Windows converts it to a `TranscodedWallpaper`, reducing the quality by 85% by default. Then, it converts it again to a JPEG image, reducing the quality by an additional 90%. This results in a final quality of 76.5% of the original. We refer to this entire process as `Double Conversion`, and the second conversion as `Horrible Second Conversion`.
 The quality reduction percentage of the first conversion is controlled by `JPEGImportQuality` in the registry, but we have no control over the second conversion in the registry. Even if we control both conversions and set both to 100%, we can't avoid quality reduction because the JPEG format is a `lossy` format, so Windows itself is trying the wrong way by converting JPEG images and Microsoft should give users an option to avoid this. Fortunately, with JBS, we can get rid of both conversions.
 
-### Comparison
-Open the `Comparison\index.html` in your browser, and check the `Comparison\guide.txt` for more information.
+### Screenshot
+![JBSGUI guide](https://github.com/amymor/JPEG-Background-Setter-JBS/assets/54497554/a963dcf8-19dc-4b86-8298-fd4c075403e7)
 
+### Comparison
+Open the `Comparison\index.html` in your browser, and check the `Comparison\guide.md` for more information.
+![Comparison](https://github.com/amymor/JPEG-Background-Setter-JBS/assets/54497554/8feb6e33-f949-498e-a166-48493f771a64)
+From left to right in order (best quality to worst):
+
+`orgl-ful`	- Original photo (`JBS` maintains this quality)
+
+`100+dummy`	- Setting JPEGImportQuality to 100 and disabling only the `Horrible Second Conversion`.
+
+`90+dummy`	- Setting JPEGImportQuality to 90 and disabling only the `Horrible Second Conversion`.
+
+`100-dummy`	- Just setting JPEGImportQuality to 100 (default Windows `Double Conversion`).
+
+`90-dummy`	- Just setting JPEGImportQuality to 90 (default Windows `Double Conversion`).
 
 ### Cons
 1. For slideshows, currently, there is no option to automatically change the background after a period of time like Windows slideshow. However, you can do it manually by using the desktop context menu. (If I have free time and receive positive reactions from users, I will implement auto-change too)
