@@ -9,7 +9,8 @@ The quality reduction percentage of the first conversion is controlled by `JPEGI
 ![JBSGUI guide](https://github.com/amymor/JPEG-Background-Setter-JBS/assets/54497554/a963dcf8-19dc-4b86-8298-fd4c075403e7)
 
 ### Comparison
-Open the `Comparison\index.html` in your browser, and check the `Comparison\guide.md` for more information.
+
+Open the [index.html](https://github.com/amymor/JPEG-Background-Setter-JBS/releases/download/Initial_release/index.html) in your browser, and check the [guide.md](https://github.com/amymor/JPEG-Background-Setter-JBS/releases/download/Initial_release/guide.md) for more information.
 ![Comparison](https://github.com/amymor/JPEG-Background-Setter-JBS/assets/54497554/8feb6e33-f949-498e-a166-48493f771a64)
 From left to right in order (best quality to worst):
 
