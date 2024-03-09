@@ -27,13 +27,13 @@ ListFiles.exe "%FolderPath%">> list.ini
 SET /P "LineNumber= Enter the line number to use as a variable. If you want to set first image as background, then enter 1:"
 
 :: create ini to store number of currnet background
-IF NOT EXIST "CurrentBG*.ini" (
-  type NUL > CurrentBG.ini
+IF NOT EXIST "CurrentBG*" (
+  type NUL > CurrentBG1
 )
- :: rename previous CurrentBG*.ini to specified number:
-REN "CurrentBG*.ini" "CurrentBG%LineNumber%.ini"
+ :: rename previous CurrentBG* to specified number:
+REN "CurrentBG*" "CurrentBG%LineNumber%"
  :: find the .ini file and set it as a variable:
-FOR /R "%~dp0" %%F IN (CurrentBG*.ini) DO SET "IniFile=%%~nF"
+FOR /R "%~dp0" %%F IN (CurrentBG*) DO SET "IniFile=%%~nF"
  :: remove the CurrentBG
 SET "LineNumber=%IniFile:CurrentBG=%"
 
