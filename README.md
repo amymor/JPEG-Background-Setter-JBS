@@ -1,4 +1,4 @@
-# ![JBSGUI2](https://github.com/amymor/JPEG-Background-Setter-JBS/assets/54497554/7555d5e4-38a0-431f-9506-2f09921c57ab) JPEG Background Setter(JPS)
+# ![JBSGUI2](https://github.com/amymor/JPEG-Background-Setter-JBS/assets/54497554/7555d5e4-38a0-431f-9506-2f09921c57ab) JPEG Background Setter(JBS)
 A portable and tiny app (~150KB) to set your actual JPEG image as background.
 
 ## Why JBS?
