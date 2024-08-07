@@ -2,7 +2,7 @@
 A portable and tiny app (~150KB) to set your actual JPEG image as background.
 
 ## Why JBS?
-When you set a JPEG image as your desktop background, Windows converts it to a `TranscodedWallpaper`, reducing the quality by 85% by default. Then, it converts it again to a JPEG image, reducing the quality by an additional 90%. This results in a final quality of 76.5% of the original. We refer to this entire process as `Double Conversion`, and the second conversion as `Horrible Second Conversion`.
+When you set a JPEG image as your desktop background, Windows converts it to a `TranscodedWallpaper`, reducing the quality by 85% by default. Then, Windows converts it again to another JPEG image, reducing the quality by an additional 90%. This results in a final quality of 76.5% of the original. We refer to this entire process as `Double Conversion`, and the second conversion as `Horrible Second Conversion`.
 The quality reduction percentage of the first conversion is controlled by `JPEGImportQuality` in the registry, but we have no control over the second conversion in the registry. Even if we control both conversions and set both to 100%, we can't avoid quality reduction because the JPEG format is a `lossy` format, so Windows itself is trying the wrong way by converting JPEG images and Microsoft should give users an option to avoid this. Fortunately, with JBS, we can get rid of both conversions.
 
 ### Screenshot (JBS GUI)
